@@ -151,3 +151,80 @@ margin e padding
     text-decoration: underline;
 
 }
+/* Tablets e celulares grandes */
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+        padding: 25px 30px;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+
+    .login {
+        height: 45px;
+    }
+}
+
+/* Celulares médios */
+@media (max-width: 480px) {
+    body {
+        padding: 20px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 25px 25px;
+        border-radius: 15px;
+    }
+
+    .container h1 {
+        font-size: 26px;
+    }
+
+    .input-box {
+        height: 45px;
+        margin: 20px 0;
+    }
+
+    .input-box input {
+        font-size: 14px;
+        padding: 15px 40px 15px 15px;
+    }
+
+    .input-box i {
+        font-size: 18px;
+        right: 15px;
+    }
+
+    .remember-forgot {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .login {
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .register-link {
+        font-size: 13px;
+    }
+}
+
+/* Celulares muito pequenos (tipo Galaxy Fold, iPhone Mini, etc) */
+@media (max-width: 360px) {
+    .container h1 {
+        font-size: 22px;
+    }
+
+    .input-box input {
+        font-size: 13px;
+    }
+
+    .login {
+        font-size: 14px;
+    }
+}
